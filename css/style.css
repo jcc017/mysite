@@ -1,0 +1,150 @@
+/****************************************** TAG Selectors ******************************************/
+a{
+    color: #567189;
+    display: inline-block;
+    margin: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: whitesmoke;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+h1 {
+    margin: 50px auto 0;
+    width: 45%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5.625rem;
+    color: #7B8FA1;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    color: #7B8FA1;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Roboto Slab', serif;
+    color: #567189;
+}
+
+hr{
+    color: none;
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+    border-color: #f7b57f; 
+    border-width: .33rem;
+}
+
+p{
+    line-height: 2;
+}
+
+
+/****************************************** CLASS Selectors ******************************************/
+.about{
+        margin: 1.4rem auto 3rem;
+        width: 45%;
+        text-align: center;
+        line-height: 2;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 275px;
+    bottom: 300x;
+}
+
+.bottom-container{
+    background-color: #CFB997;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 1.5rem auto 0 auto;
+} 
+
+/*.middle-container{
+   
+} */
+
+.btn {
+    background: #567189;
+    background-image: -webkit-linear-gradient(top, #567189, #1a577d);
+    background-image: -moz-linear-gradient(top, #567189, #1a577d);
+    background-image: -ms-linear-gradient(top, #567189, #1a577d);
+    background-image: -o-linear-gradient(top, #567189, #1a577d);
+    background-image: linear-gradient(to bottom, #567189, #1a577d);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #7B8FA1, #425e71);
+    background-image: -moz-linear-gradient(top, #7B8FA1, #425e71);
+    background-image: -ms-linear-gradient(top, #7B8FA1, #425e71);
+    background-image: -o-linear-gradient(top, #7B8FA1, #425e71);
+    background-image: linear-gradient(to bottom, #7B8FA1, #425e71);
+    text-decoration: none;
+}
+
+.coding-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-message{
+    width:40%;
+}
+
+.copyright-note{
+    color:whitesmoke;
+    font-size: .75rem;
+}
+.hiking-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.prof-pic{
+    width: 20%;
+}
+
+.profile{
+    margin-top: 3rem;
+}
+
+.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;   
+    top: 100px;
+}
+
+.top-container{
+    background-color: #FAD6A5;
+    position: relative;
+    padding-top: 100px;
+}
+
